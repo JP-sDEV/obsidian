@@ -10,7 +10,7 @@ export default function Stack() {
         </h2>
       </div>
       <p>
-        Shoot me an email:{' '}
+        Email:{' '}
         <a
           className="dark:text-white text-black transition-colors duration-500"
           href={`mailto:${contact.email}`}
@@ -33,31 +33,17 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
+        {contact.twitter && (
           <a
-            href={`https://dribbble.com/${contact.dribbble}`}
+            href={`https://twitter.com/${contact.twitter}`}
             target="_blank"
             rel="noreferrer"
           >
             <Image
-              src="/static/icons/dribbble.svg"
+              src="/static/icons/twitter.svg"
               width={20}
               height={20}
-              alt="Dribbble icon"
-            />
-          </a>
-        )}
-        {contact.linkedin && (
-          <a
-            href={`https://linkedin.com/in/${contact.linkedin}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/linkedin.svg"
-              width={20}
-              height={20}
-              alt="LinkedIn icon"
+              alt="Twitter icon"
             />
           </a>
         )}
