@@ -47,7 +47,7 @@ export default function Projects() {
                   >
                     <Image
                       src="/static/icons/github.svg"
-                      width={16}
+                      width={18}
                       height={18}
                       alt="Link icon"
                     />
