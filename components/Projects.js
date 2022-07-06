@@ -15,7 +15,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="p-6 border border-lightText rounded-xl mb-4"
+              className="projectCard p-6 border border-lightText rounded-xl mb-4 dark:hover-border-orange-100"
             >
               <h3>{item.title}</h3>
               <p>{item.description}</p>

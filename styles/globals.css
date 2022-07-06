@@ -59,6 +59,10 @@ ul {
   @apply bg-lightText;
 }
 
+.projectCard {
+  @apply hover:border-emerald-600;
+}
+
 
 @media (max-width: 600px) {
   
