@@ -12,8 +12,9 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   @apply dark:bg-dark bg-white text-lightText  transition-colors duration-500;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
+
 
 h1,
 h2,
@@ -56,4 +57,13 @@ ul {
   height: 1px;
   width: 100vw;
   @apply bg-lightText;
+}
+
+
+@media (max-width: 600px) {
+  
+  html,
+  body { 
+    width: 120%;
+  }
 }
