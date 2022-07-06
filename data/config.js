@@ -15,26 +15,26 @@ export const projects = {
     {
       title: '.Shorty (URL Shortener)',
       description: 'Shorten and track web traffic of YOUR URL.',
-      link: 'https://shorty-urlshort.\nherokuapp.com/',
+      link: 'https://shorty-urlshort.herokuapp.com/',
       github: 'https://github.com/JP-sDEV/url_shortener'
     },
     {
       title: 'Art Outside',
       description: 'Online art exhibition at UTSC!',
-      link: 'https://2020.artsideout.ca/\n#/',
-      github: 'https://github.comncsecutsc/\nartsideout_app'
+      link: 'https://2020.artsideout.ca/#/',
+      github: 'https://github.comncsecutsc/artsideout_app'
     },
     {
       title: 'COVID-19 Toronto Tracker',
       description: 'View COVID-19 hotspots, and nearby clinics in Toronto.',
-      link: 'https://share.streamlit.io/\njp-sdev/\ncovid19_webapp/\nmain/main.py',
+      link: 'https://share.streamlit.io/jp-sdev/covid19_webapp/main/main.py',
       github: 'https://github.com/JP-sDEV/covid19_webapp'
     },
     {
       title: 'Diabetic Retinopathy Classifier',
       description: 'Use machine learning to determine the severity of Diabetic Retinopathy',
-      link: 'https://share.streamlit.io/\njp-sdev/\ndiabetic_retinopathy_web_app/\nmain/\napp.py',
-      github: 'https://github.com/\nJP-sDEV/\nDiabetic_Retinopathy_Web_App'
+      link: 'https://share.streamlit.io/jp-sdev/diabetic_retinopathy_web_app/main/app.py',
+      github: 'https://github.com/JP-sDEV/Diabetic_Retinopathy_Web_App'
     }
   ]
 };
