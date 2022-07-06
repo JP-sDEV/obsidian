@@ -33,21 +33,21 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="ml-2  text-lightText  transition-colors duration-500 ellipsis">
                       {item.link}
                     </span>
                   </a>
                 )}
                 {item.github && (
                   <a
-                    href={`https://github.com/${item.github}`}
+                    href={`${item.github}`}
                     className="flex items-center py-1 px-3"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
                       src="/static/icons/github.svg"
-                      width={18}
+                      width={16}
                       height={18}
                       alt="Link icon"
                     />
