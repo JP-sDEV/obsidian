@@ -12,12 +12,9 @@ export default function Education() {
       <div className="mt-0">
         {education.education.map((item, index) => {
           return (
-            <div className="flex flex-col p-6 border border-lightText rounded-xl mb-4 dark:hover-border-orange-100">
+            <div className="flex flex-col p-6 border border-lightText rounded-xl mb-4 dark:hover-border-orange-100" key={index}>
 
-            <div
-              key={index}
-              className="flex flex-row justify-between"
-            >
+            <div className="flex flex-row justify-between">
             
               <h3 className=''>{item.school}</h3>
               <p className=''>{item.start_year} - {item.graduation_year}</p>
