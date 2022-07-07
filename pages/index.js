@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Stack from '@/components/Stack';
+import Education from '@/components/Education';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -16,6 +17,7 @@ export default function Index() {
         <div className="p-0 space-y-10">
           <Projects />
           <Stack />
+          <Education />
           <Contact />
         </div>
       </div>
