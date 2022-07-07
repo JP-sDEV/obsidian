@@ -1,6 +1,6 @@
 export const meta = {
   title: 'JP-sDEV - Web Developer',
-  description: 'Hi! I\'m JP. I\'m a full stack web developer, currently using ReactJS, NodeJS, and MongoDB.'
+  description: 'Hi! I\'m Jon. I\'m a full stack web developer, currently using ReactJS, NodeJS, and MongoDB.'
 }
 
 export const hero = {
