@@ -1,5 +1,5 @@
 export const meta = {
-  title: 'JP-sDEV - Web Developer and Designer',
+  title: 'JP-sDEV - Web Developer',
   description: 'Hi! I\'m JP. I\'m a full stack web developer, currently using ReactJS, NodeJS, and MongoDB.'
 }
 
