@@ -51,12 +51,23 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.github}
                     </span>
                   </a>
                 )}
               </div>
+              
+              <div className="flex items-center flex-wrap -m-3 pt-5">
+              {item.tech.map((t, i) => {
+                return (
+                  <span className="border border-lightText rounded-lg m-1 px-2 py-1" key={i}>
+                    {t}
+                  </span>
+                )}
+              )}
+               </div>
+              
             </div>
           );
         })}
