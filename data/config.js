@@ -4,24 +4,24 @@ export const meta = {
 }
 
 export const hero = {
-  title: "Hi! I'm JP.",
-  desc: "UofT Class of 2019 - Currently developing with ReactJS, NodeJS, and MongoDB"
+  title: "Hi! I'm Jon.",
+  desc: "Web developer, currently developing with ReactJS, NodeJS, and MongoDB"
 };
 
 export const projects = {
   title: 'Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  desc: "Applications that I have contributed to, or developed on my own.",
   projects: [
     {
-      title: '.Shorty (URL Shortener)',
-      description: 'Shorten and track web traffic of YOUR URL.',
+      title: '.Shorty (URL Shortener, bit.ly clone)',
+      description: 'Shorten and track web traffic of an URL.',
       link: 'https://shorty-urlshort.herokuapp.com/',
       github: 'https://github.com/JP-sDEV/url_shortener',
       tech: ["ReactJS", "NodeJS", "MongoDB", "GCP", "MaterialUI"]
     },
     {
       title: 'Art Outside',
-      description: 'Online art exhibition at UTSC!',
+      description: 'Online art exhibition at the University of Toronto.',
       link: 'https://2020.artsideout.ca/#/',
       github: 'https://github.com/csecutsc/artsideout_app',
       tech: ["Flutter", "Dart"]
@@ -35,16 +35,16 @@ export const projects = {
     },
     {
       title: 'Diabetic Retinopathy Classifier',
-      description: 'Use machine learning to determine the severity of Diabetic Retinopathy',
+      description:"Medical application of MobileNetv4 to determine the severity of Diabetic Retinopathy.",
       link: 'https://share.streamlit.io/jp-sdev/diabetic_retinopathy_web_app/main/app.py',
       github: 'https://github.com/JP-sDEV/Diabetic_Retinopathy_Web_App',
-      tech: ["Python", "Pandas", "Numpy", "Streamlit"]
+      tech: ["Python", "TensorFlow", "Pandas", "Numpy", "Streamlit"]
     }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
+  title: 'Technologies',
   stack: [
     'JavaScript',
     'ReactJS',
@@ -74,7 +74,7 @@ export const education = {
     school: "University of Toronto",
     start_year: "2015",
     graduation_year: "2019",
-    majors: "Biology, Statistics"
+    majors: "Biology, Applied Statistics"
   }
 ]
 }
