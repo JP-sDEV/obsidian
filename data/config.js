@@ -13,6 +13,13 @@ export const projects = {
   desc: "Applications that I have contributed to, or developed on my own.",
   projects: [
     {
+      title: 'Weather.me',
+      description: 'Recommends EDC based on current and future weather conditions.',
+      link: 'https://weather-me-three.vercel.app/',
+      github: 'https://github.com/JP-sDEV/Weather.me',
+      tech: ["ReactJS", "NextJS", "TailWindCSS"]
+    },
+    {
       title: '.Shorty (URL Shortener, bit.ly clone)',
       description: 'Shorten and track web traffic of an URL.',
       link: 'https://shorty-urlshort.herokuapp.com/',
@@ -47,13 +54,14 @@ export const stack = {
   title: 'Technologies',
   stack: [
     'JavaScript',
+    'TypeScript',
     'ReactJS',
     'NextJS',
     'NodeJS',
+    'PostgreSQL',
     'MongoDB',
     'Git',
     'Google Cloud Platform (GCP)',
-    'Amazon Web Services (AWS)',
     'Python',
     'HTML',
     'CSS'
@@ -70,6 +78,12 @@ export const contact = {
 export const education = {
   title: 'Education',
   education: [
+  {
+    school: "Seneca College",
+    start_year: "2022",
+    graduation_year: "2025",
+    majors: "Computer Programming, and Analysis"
+  },
   {
     school: "University of Toronto",
     start_year: "2015",
