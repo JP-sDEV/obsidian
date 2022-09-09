@@ -5,7 +5,7 @@ export const meta = {
 
 export const hero = {
   title: "Hi! I'm Jon.",
-  desc: "Web developer, currently developing with ReactJS, NodeJS, and MongoDB"
+  desc: "Currently studying Software Development @ Seneca College, seeking 2023 Summer Software Development Internships."
 };
 
 export const projects = {
@@ -53,16 +53,15 @@ export const projects = {
 export const stack = {
   title: 'Technologies',
   stack: [
+    'C',
     'JavaScript',
     'TypeScript',
+    'Python',
+    'Git',
     'ReactJS',
-    'NextJS',
     'NodeJS',
     'PostgreSQL',
     'MongoDB',
-    'Git',
-    'Google Cloud Platform (GCP)',
-    'Python',
     'HTML',
     'CSS'
   ]
