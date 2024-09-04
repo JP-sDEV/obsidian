@@ -1,18 +1,24 @@
 export const meta = {
-  title: 'JP-sDEV - Web Developer',
-  description:
-    "Hi! I'm Jon. I'm a full stack developer, currently using ReactJS, NodeJS, and MongoDB."
+  title: 'JP-sDEV - Software Developer',
+  description: "Hi! I'm Jon. I'm a software developer."
 };
 
 export const hero = {
   title: "Hi! I'm Jon.",
-  desc: '3rd Year Software Development @ Seneca College, seeking Summer 2024 Internship Opportunities.'
+  desc: '3rd Year Software Development @ Seneca College, currently learning Docker and CI/CD practices.'
 };
 
 export const projects = {
   title: 'Projects',
   desc: 'Applications that I have contributed to, or developed on my own.',
   projects: [
+    {
+      title: 'Fragments',
+      description:
+        'Log and manage files of various formats via Amazon Web Servies (AWS)',
+      github: 'https://github.com/JP-sDEV/fragments',
+      tech: ['EC2', 'ECR', 'Docker', 'Jest', 'Hurl', 'ExpressJS', 'Parcel']
+    },
     {
       title: 'Weather.me',
       description:
@@ -35,28 +41,24 @@ export const projects = {
       github: 'https://github.com/csecutsc/artsideout_app',
       tech: ['Flutter', 'Dart']
     }
-    // {
-    //   title: 'COVID-19 Toronto Tracker',
-    //   description: 'View COVID-19 hotspots, and nearby clinics in Toronto.',
-    //   link: 'https://share.streamlit.io/jp-sdev/covid19_webapp/main/main.py',
-    //   github: 'https://github.com/JP-sDEV/covid19_webapp',
-    //   tech: ['Python', 'Pandas', 'Numpy', 'Streamlit']
-    // }
-    // {
-    //   title: 'Diabetic Retinopathy Classifier',
-    //   description:
-    //     'Medical application of MobileNetv4 to determine the severity of Diabetic Retinopathy.',
-    //   link: 'https://share.streamlit.io/jp-sdev/diabetic_retinopathy_web_app/main/app.py',
-    //   github: 'https://github.com/JP-sDEV/Diabetic_Retinopathy_Web_App',
-    //   tech: ['Python', 'TensorFlow', 'Pandas', 'Numpy', 'Streamlit']
-    // }
   ]
 };
 
 export const experience = {
   title: 'Experience',
-  desc: 'Past Internships and Hackathons',
+  desc: 'Internships and Hackathons',
   experiences: [
+    {
+      title: 'Junior Software Tester (Current)',
+      company: 'NRT Tech',
+      description: [
+        'Developed and tested auditing systems, reducing security incidents by 10%',
+        'Automated monthly job vacancy reports, reducing onboarding time by ~15%'
+      ],
+      link: '',
+      github: '',
+      tech: ['Python']
+    },
     {
       title: 'Software Developer',
       company: 'Toronto Transit Commission (TTC)',
