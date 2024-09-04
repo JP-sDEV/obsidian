@@ -50,7 +50,7 @@ export const experience = {
   experiences: [
     {
       title: 'Junior Software Tester (Current)',
-      company: 'NRT Tech',
+      company: 'NRT Technology',
       description: [
         'Developed and tested auditing systems, reducing security incidents by 10%',
         'Automated monthly job vacancy reports, reducing onboarding time by ~15%'
